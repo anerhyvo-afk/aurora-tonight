@@ -1,0 +1,32 @@
+name: refresh-and-deploy
+on:
+  schedule: [{cron: "*/15 * * * *"}]
+  workflow_dispatch: {}
+  push: {branches: [main]}
+permissions: {contents: write, pages: write, id-token: write}
+concurrency: {group: pages, cancel-in-progress: false}
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: cp data.json /tmp/old.json 2>/dev/null || echo '{}' > /tmp/old.json
+      - run: python3 fetch.py
+      - name: Commit data.json only if verdicts changed (timestamp ignored)
+        run: |
+          strip='import json,sys;d=json.load(open(sys.argv[1]));d.pop("updated",None);print(json.dumps(d,sort_keys=True))'
+          if [ "$(python3 -c "$strip" /tmp/old.json)" != "$(python3 -c "$strip" data.json)" ]; then
+            git config user.name "github-actions[bot]"; git config user.email "41898183+github-actions[bot]@users.noreply.github.com"
+            git add data.json && git commit -m "Update aurora data" && git push || true
+          fi
+      - run: mkdir -p _site && cp index.html data.json _site/
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with: {path: _site}
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment: {name: github-pages, url: "${{ steps.d.outputs.page_url }}"}
+    steps:
+      - id: d
+        uses: actions/deploy-pages@v4

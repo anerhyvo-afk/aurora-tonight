@@ -1,0 +1,9 @@
+<!doctype html><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1">
+<title>Aurora Tonight in Lapland – Rovaniemi, Levi, Saariselkä</title>
+<style>body{font-family:system-ui;background:#0b1020;color:#e8eef8;max-width:760px;margin:auto;padding:1rem}.c{background:#151c33;border-radius:12px;padding:1rem;margin:.7rem 0}.Good{color:#4ade80}.Possible{color:#facc15}.Unlikely{color:#94a3b8}h2{margin:.2rem 0}small{color:#94a3b8}</style>
+<h1>Will I see the northern lights tonight?</h1>
+<p>A live, free verdict for Rovaniemi, Levi and Saariselkä, updated every 15 minutes.</p>
+<div id=t>Loading…</div><p><small id=u></small></p>
+<h3>How it works</h3><p>You need three things: aurora activity, clear skies and darkness. We combine live magnetometer readings from the Finnish Meteorological Institute's stations closest to each town, the NOAA Kp forecast, the FMI cloud cover forecast and the position of the sun. Tip: get away from street lights and look north.</p>
+<p><small>Data: Finnish Meteorological Institute (FMI), licensed CC BY 4.0; NOAA Space Weather Prediction Center. A forecast, not a guarantee.</small></p>
+<script>fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{t.innerHTML=d.towns.map(x=>`<div class=c><h2>${x.name}: <span class=${x.verdict}>${x.verdict}</span></h2>${x.reason}</div>`).join('');u.textContent='Updated '+new Date(d.updated).toLocaleString('en-GB',{timeZone:'Europe/Helsinki'})+' Finnish time'})</script>
