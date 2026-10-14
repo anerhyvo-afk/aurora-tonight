@@ -7,3 +7,5 @@
 <h3>How it works</h3><p>You need three things: aurora activity, clear skies and darkness. We combine live magnetometer readings from the Finnish Meteorological Institute's stations closest to each town, the NOAA Kp forecast, the FMI cloud cover forecast and the position of the sun. Tip: get away from street lights and look north.</p>
 <p><small>Data: Finnish Meteorological Institute (FMI), licensed CC BY 4.0; NOAA Space Weather Prediction Center. A forecast, not a guarantee.</small></p>
 <script>fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{t.innerHTML=d.towns.map(x=>`<div class=c><h2>${x.name}: <span class=${x.verdict}>${x.verdict}</span></h2>${x.reason}</div>`).join('');u.textContent='Updated '+new Date(d.updated).toLocaleString('en-GB',{timeZone:'Europe/Helsinki'})+' Finnish time'})</script>
+
+<script data-goatcounter="https://laplandaurora.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
