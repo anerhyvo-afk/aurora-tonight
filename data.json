@@ -1,13 +1,17 @@
 {
- "updated": "2026-10-16T14:23+00:00",
+ "updated": "2026-10-16T14:59+00:00",
  "kp_forecast_max_next9h": 2.0,
  "towns": [
   {
    "name": "Rovaniemi",
    "verdict": "Unlikely",
    "score": 0,
-   "reason": "too bright, 1% cloud, Ranua activity low (R=17)",
+   "reason": "too bright, 0% cloud, Ranua activity low (R=40)",
    "cloud_next6h": [
+    [
+     "2026-10-16T11:00:00Z",
+     0.0
+    ],
     [
      "2026-10-16T12:00:00Z",
      1.0
@@ -27,61 +31,53 @@
     [
      "2026-10-16T16:00:00Z",
      0.0
-    ],
-    [
-     "2026-10-16T17:00:00Z",
-     0.0
     ]
    ],
    "station": "Ranua",
-   "r_index": 17,
-   "sun_elev": 1.2
+   "r_index": 40,
+   "sun_elev": -2.1
   },
   {
    "name": "Levi",
    "verdict": "Unlikely",
    "score": 0,
-   "reason": "too bright, 1% cloud, Muonio activity low (R=24)",
+   "reason": "too bright, 73% cloud, Muonio activity low (R=56)",
    "cloud_next6h": [
     [
-     "2026-10-16T09:00:00Z",
-     1.0
-    ],
-    [
      "2026-10-16T10:00:00Z",
-     28.8
+     73.9
     ],
     [
      "2026-10-16T11:00:00Z",
-     79.3
+     15.5
     ],
     [
      "2026-10-16T12:00:00Z",
-     17.6
+     2.7
     ],
     [
      "2026-10-16T13:00:00Z",
-     2.8
+     3.2
     ],
     [
      "2026-10-16T14:00:00Z",
-     11.7
+     5.8
+    ],
+    [
+     "2026-10-16T15:00:00Z",
+     5.9
     ]
    ],
    "station": "Muonio",
-   "r_index": 24,
-   "sun_elev": 1.0
+   "r_index": 56,
+   "sun_elev": -2.2
   },
   {
    "name": "Saariselkä",
    "verdict": "Unlikely",
    "score": 0,
-   "reason": "too bright, 15% cloud, Ivalo activity low (R=25)",
+   "reason": "too bright, 8% cloud, Ivalo activity low (R=49)",
    "cloud_next6h": [
-    [
-     "2026-10-16T14:00:00Z",
-     15.8
-    ],
     [
      "2026-10-16T15:00:00Z",
      8.7
@@ -101,11 +97,15 @@
     [
      "2026-10-16T19:00:00Z",
      0.4
+    ],
+    [
+     "2026-10-16T20:00:00Z",
+     0.0
     ]
    ],
    "station": "Ivalo",
-   "r_index": 25,
-   "sun_elev": -0.2
+   "r_index": 49,
+   "sun_elev": -3.3
   }
  ]
 }
