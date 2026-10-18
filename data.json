@@ -1,82 +1,82 @@
 {
- "updated": "2026-10-18T10:37+00:00",
+ "updated": "2026-10-18T11:03+00:00",
  "kp_forecast_max_next9h": 1.33,
  "towns": [
   {
    "name": "Rovaniemi",
    "verdict": "Unlikely",
    "score": 0,
-   "reason": "too bright, 31% cloud, Ranua activity low (R=13)",
+   "reason": "too bright, 0% cloud, Ranua activity low (R=16)",
    "cloud_next6h": [
     [
-     "2026-10-18T06:00:00Z",
-     31.2
-    ],
-    [
-     "2026-10-18T07:00:00Z",
-     28.8
-    ],
-    [
-     "2026-10-18T08:00:00Z",
-     16.2
-    ],
-    [
-     "2026-10-18T09:00:00Z",
-     24.8
-    ],
-    [
      "2026-10-18T10:00:00Z",
-     0.1
+     0.0
     ],
     [
      "2026-10-18T11:00:00Z",
-     0.0
+     0.3
+    ],
+    [
+     "2026-10-18T12:00:00Z",
+     0.1
+    ],
+    [
+     "2026-10-18T13:00:00Z",
+     33.3
+    ],
+    [
+     "2026-10-18T14:00:00Z",
+     26.1
+    ],
+    [
+     "2026-10-18T15:00:00Z",
+     29.3
     ]
    ],
    "station": "Ranua",
-   "r_index": 13,
-   "sun_elev": 13.5
+   "r_index": 16,
+   "sun_elev": 13.0
   },
   {
    "name": "Levi",
    "verdict": "Unlikely",
    "score": 0,
-   "reason": "too bright, 35% cloud, Muonio activity low (R=16)",
+   "reason": "too bright, 34% cloud, Muonio activity low (R=23)",
    "cloud_next6h": [
     [
-     "2026-10-18T06:00:00Z",
-     35.7
-    ],
-    [
-     "2026-10-18T07:00:00Z",
-     24.1
-    ],
-    [
-     "2026-10-18T08:00:00Z",
-     44.8
-    ],
-    [
-     "2026-10-18T09:00:00Z",
-     46.7
-    ],
-    [
      "2026-10-18T10:00:00Z",
-     40.0
+     34.8
     ],
     [
      "2026-10-18T11:00:00Z",
-     15.0
+     88.9
+    ],
+    [
+     "2026-10-18T12:00:00Z",
+     89.4
+    ],
+    [
+     "2026-10-18T13:00:00Z",
+     51.7
+    ],
+    [
+     "2026-10-18T14:00:00Z",
+     5.6
+    ],
+    [
+     "2026-10-18T15:00:00Z",
+     31.4
     ]
    ],
    "station": "Muonio",
-   "r_index": 16,
-   "sun_elev": 12.3
+   "r_index": 23,
+   "sun_elev": 11.8
   },
   {
    "name": "Saariselkä",
    "verdict": "Unlikely",
    "score": 0,
-   "reason": "too bright, 67% cloud, Ivalo activity low (R=18)",
+   "reason": "too bright, 67% cloud, Ivalo activity low (R=27)",
    "cloud_next6h": [
     [
      "2026-10-18T09:00:00Z",
@@ -104,8 +104,8 @@
     ]
    ],
    "station": "Ivalo",
-   "r_index": 18,
-   "sun_elev": 11.5
+   "r_index": 27,
+   "sun_elev": 11.0
   }
  ]
 }
