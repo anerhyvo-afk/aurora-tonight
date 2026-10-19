@@ -1,47 +1,47 @@
 {
- "updated": "2026-10-19T20:00+00:00",
+ "updated": "2026-10-19T20:41+00:00",
  "kp_forecast_max_next9h": 5.0,
  "towns": [
   {
    "name": "Rovaniemi",
    "verdict": "Unlikely",
-   "score": 2,
-   "reason": "97% cloud, Ranua activity low (R=15)",
+   "score": 5,
+   "reason": "90% cloud, Ranua activity low (R=4)",
    "cloud_next6h": [
     [
-     "2026-10-19T16:00:00Z",
-     97.0
-    ],
-    [
-     "2026-10-19T17:00:00Z",
-     94.6
-    ],
-    [
-     "2026-10-19T18:00:00Z",
-     85.7
-    ],
-    [
      "2026-10-19T19:00:00Z",
-     94.9
+     90.8
     ],
     [
      "2026-10-19T20:00:00Z",
-     86.3
+     42.3
     ],
     [
      "2026-10-19T21:00:00Z",
-     1.6
+     2.7
+    ],
+    [
+     "2026-10-19T22:00:00Z",
+     0.7
+    ],
+    [
+     "2026-10-19T23:00:00Z",
+     28.0
+    ],
+    [
+     "2026-10-20T00:00:00Z",
+     45.3
     ]
    ],
    "station": "Ranua",
-   "r_index": 15,
-   "sun_elev": -30.1
+   "r_index": 4,
+   "sun_elev": -32.1
   },
   {
    "name": "Levi",
    "verdict": "Unlikely",
    "score": 0,
-   "reason": "99% cloud, Muonio activity low (R=12)",
+   "reason": "99% cloud, Muonio activity low (R=7)",
    "cloud_next6h": [
     [
      "2026-10-19T17:00:00Z",
@@ -69,19 +69,15 @@
     ]
    ],
    "station": "Muonio",
-   "r_index": 12,
-   "sun_elev": -28.8
+   "r_index": 7,
+   "sun_elev": -30.7
   },
   {
    "name": "Saariselkä",
    "verdict": "Unlikely",
    "score": 0,
-   "reason": "100% cloud, Ivalo activity low (R=12)",
+   "reason": "100% cloud, Ivalo activity low (R=2)",
    "cloud_next6h": [
-    [
-     "2026-10-19T18:00:00Z",
-     100.0
-    ],
     [
      "2026-10-19T19:00:00Z",
      100.0
@@ -96,16 +92,20 @@
     ],
     [
      "2026-10-19T22:00:00Z",
-     99.7
+     99.5
     ],
     [
      "2026-10-19T23:00:00Z",
-     99.2
+     99.8
+    ],
+    [
+     "2026-10-20T00:00:00Z",
+     100.0
     ]
    ],
    "station": "Ivalo",
-   "r_index": 12,
-   "sun_elev": -28.8
+   "r_index": 2,
+   "sun_elev": -30.5
   }
  ]
 }
