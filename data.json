@@ -1,48 +1,60 @@
 {
- "updated": "2026-10-23T18:07+00:00",
+ "updated": "2026-10-23T18:47+00:00",
  "kp_forecast_max_next9h": 2.67,
  "towns": [
   {
    "name": "Rovaniemi",
    "verdict": "Unlikely",
-   "score": 0,
-   "reason": "96% cloud, Ranua activity low (R=44)",
+   "score": 1,
+   "reason": "99% cloud, Ranua activity high (R=292)",
    "cloud_next6h": [
     [
+     "2026-10-23T14:00:00Z",
+     99.1
+    ],
+    [
+     "2026-10-23T15:00:00Z",
+     99.9
+    ],
+    [
      "2026-10-23T16:00:00Z",
-     96.7
+     73.2
     ],
     [
      "2026-10-23T17:00:00Z",
-     91.9
+     91.5
     ],
     [
      "2026-10-23T18:00:00Z",
-     98.9
+     99.1
     ],
     [
      "2026-10-23T19:00:00Z",
-     97.2
-    ],
-    [
-     "2026-10-23T20:00:00Z",
-     82.7
-    ],
-    [
-     "2026-10-23T21:00:00Z",
-     74.7
+     100.0
     ]
    ],
    "station": "Ranua",
-   "r_index": 44,
-   "sun_elev": -22.8
+   "r_index": 292,
+   "sun_elev": -26.3
   },
   {
    "name": "Levi",
    "verdict": "Unlikely",
    "score": 0,
-   "reason": "100% cloud, Muonio activity medium (R=104)",
+   "reason": "100% cloud, Muonio activity high (R=559)",
    "cloud_next6h": [
+    [
+     "2026-10-23T16:00:00Z",
+     100.0
+    ],
+    [
+     "2026-10-23T17:00:00Z",
+     100.0
+    ],
+    [
+     "2026-10-23T18:00:00Z",
+     100.0
+    ],
     [
      "2026-10-23T19:00:00Z",
      100.0
@@ -54,29 +66,17 @@
     [
      "2026-10-23T21:00:00Z",
      99.9
-    ],
-    [
-     "2026-10-23T22:00:00Z",
-     100.0
-    ],
-    [
-     "2026-10-23T23:00:00Z",
-     95.7
-    ],
-    [
-     "2026-10-24T00:00:00Z",
-     94.0
     ]
    ],
    "station": "Muonio",
-   "r_index": 104,
-   "sun_elev": -22.0
+   "r_index": 559,
+   "sun_elev": -25.3
   },
   {
    "name": "Saariselkä",
    "verdict": "Unlikely",
    "score": 0,
-   "reason": "100% cloud, Ivalo activity medium (R=153)",
+   "reason": "100% cloud, Ivalo activity high (R=633)",
    "cloud_next6h": [
     [
      "2026-10-23T19:00:00Z",
@@ -104,8 +104,8 @@
     ]
    ],
    "station": "Ivalo",
-   "r_index": 153,
-   "sun_elev": -22.6
+   "r_index": 633,
+   "sun_elev": -25.7
   }
  ]
 }
