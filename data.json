@@ -1,52 +1,13 @@
 {
- "updated": "2026-10-24T07:28+00:00",
+ "updated": "2026-10-24T07:59+00:00",
  "kp_forecast_max_next9h": 3.67,
  "towns": [
   {
    "name": "Rovaniemi",
    "verdict": "Unlikely",
    "score": 0,
-   "reason": "too bright, 98% cloud, Ranua activity medium (R=76)",
+   "reason": "too bright, 100% cloud, Ranua activity low (R=46)",
    "cloud_next6h": [
-    [
-     "2026-10-24T05:00:00Z",
-     98.6
-    ],
-    [
-     "2026-10-24T06:00:00Z",
-     100.0
-    ],
-    [
-     "2026-10-24T07:00:00Z",
-     100.0
-    ],
-    [
-     "2026-10-24T08:00:00Z",
-     100.0
-    ],
-    [
-     "2026-10-24T09:00:00Z",
-     100.0
-    ],
-    [
-     "2026-10-24T10:00:00Z",
-     100.0
-    ]
-   ],
-   "station": "Ranua",
-   "r_index": 76,
-   "sun_elev": 6.9
-  },
-  {
-   "name": "Levi",
-   "verdict": "Unlikely",
-   "score": 0,
-   "reason": "too bright, 100% cloud, Muonio activity medium (R=103)",
-   "cloud_next6h": [
-    [
-     "2026-10-24T07:00:00Z",
-     100.0
-    ],
     [
      "2026-10-24T08:00:00Z",
      100.0
@@ -66,46 +27,85 @@
     [
      "2026-10-24T12:00:00Z",
      100.0
+    ],
+    [
+     "2026-10-24T13:00:00Z",
+     100.0
+    ]
+   ],
+   "station": "Ranua",
+   "r_index": 46,
+   "sun_elev": 8.6
+  },
+  {
+   "name": "Levi",
+   "verdict": "Unlikely",
+   "score": 0,
+   "reason": "too bright, 100% cloud, Muonio activity low (R=57)",
+   "cloud_next6h": [
+    [
+     "2026-10-24T06:00:00Z",
+     100.0
+    ],
+    [
+     "2026-10-24T07:00:00Z",
+     100.0
+    ],
+    [
+     "2026-10-24T08:00:00Z",
+     100.0
+    ],
+    [
+     "2026-10-24T09:00:00Z",
+     100.0
+    ],
+    [
+     "2026-10-24T10:00:00Z",
+     100.0
+    ],
+    [
+     "2026-10-24T11:00:00Z",
+     100.0
     ]
    ],
    "station": "Muonio",
-   "r_index": 103,
-   "sun_elev": 5.6
+   "r_index": 57,
+   "sun_elev": 7.3
   },
   {
    "name": "Saariselkä",
    "verdict": "Unlikely",
    "score": 0,
-   "reason": "too bright, 83% cloud, Ivalo activity medium (R=112)",
+   "reason": "too bright, 93% cloud, Ivalo activity low (R=58)",
    "cloud_next6h": [
     [
+     "2026-10-24T03:00:00Z",
+     93.6
+    ],
+    [
      "2026-10-24T04:00:00Z",
-     83.3
+     75.7
     ],
     [
      "2026-10-24T05:00:00Z",
-     44.3
+     63.3
     ],
     [
      "2026-10-24T06:00:00Z",
-     53.8
+     53.9
     ],
     [
      "2026-10-24T07:00:00Z",
-     67.1
+     83.1
     ],
     [
      "2026-10-24T08:00:00Z",
-     42.2
-    ],
-    [
-     "2026-10-24T09:00:00Z",
-     30.1
+     49.6
     ]
    ],
    "station": "Ivalo",
-   "r_index": 112,
-   "sun_elev": 5.7
+   "r_index": 58,
+   "sun_elev": 7.2
   }
  ]
 }
