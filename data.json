@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T03:42+00:00",
+ "updated": "2026-10-26T04:18+00:00",
  "kp_forecast_max_next9h": 1.33,
  "towns": [
   {
@@ -35,7 +35,7 @@
    ],
    "station": "Ranua",
    "r_index": 8,
-   "sun_elev": -13.2
+   "sun_elev": -9.6
   },
   {
    "name": "Levi",
@@ -70,7 +70,7 @@
    ],
    "station": "Muonio",
    "r_index": 7,
-   "sun_elev": -13.6
+   "sun_elev": -10.2
   },
   {
    "name": "Saariselkä",
@@ -105,7 +105,7 @@
    ],
    "station": "Ivalo",
    "r_index": 7,
-   "sun_elev": -12.6
+   "sun_elev": -9.3
   }
  ]
 }
