@@ -1,25 +1,13 @@
 {
- "updated": "2026-10-28T17:21+00:00",
+ "updated": "2026-10-28T18:09+00:00",
  "kp_forecast_max_next9h": 1.67,
  "towns": [
   {
    "name": "Rovaniemi",
    "verdict": "Unlikely",
    "score": 0,
-   "reason": "100% cloud, Ranua activity low (R=12)",
+   "reason": "100% cloud, Ranua activity medium (R=80)",
    "cloud_next6h": [
-    [
-     "2026-10-28T16:00:00Z",
-     100.0
-    ],
-    [
-     "2026-10-28T17:00:00Z",
-     100.0
-    ],
-    [
-     "2026-10-28T18:00:00Z",
-     100.0
-    ],
     [
      "2026-10-28T19:00:00Z",
      100.0
@@ -31,52 +19,64 @@
     [
      "2026-10-28T21:00:00Z",
      100.0
+    ],
+    [
+     "2026-10-28T22:00:00Z",
+     100.0
+    ],
+    [
+     "2026-10-28T23:00:00Z",
+     99.9
+    ],
+    [
+     "2026-10-29T00:00:00Z",
+     100.0
     ]
    ],
    "station": "Ranua",
-   "r_index": 12,
-   "sun_elev": -20.2
+   "r_index": 80,
+   "sun_elev": -24.7
   },
   {
    "name": "Levi",
    "verdict": "Unlikely",
-   "score": 0,
-   "reason": "70% cloud, Muonio activity low (R=18)",
+   "score": 1,
+   "reason": "96% cloud, Muonio activity medium (R=133)",
    "cloud_next6h": [
     [
-     "2026-10-28T15:00:00Z",
-     70.2
-    ],
-    [
-     "2026-10-28T16:00:00Z",
-     100.0
-    ],
-    [
      "2026-10-28T17:00:00Z",
-     98.0
+     96.1
     ],
     [
      "2026-10-28T18:00:00Z",
-     100.0
+     99.9
     ],
     [
      "2026-10-28T19:00:00Z",
-     98.2
+     100.0
     ],
     [
      "2026-10-28T20:00:00Z",
-     98.9
+     100.0
+    ],
+    [
+     "2026-10-28T21:00:00Z",
+     99.0
+    ],
+    [
+     "2026-10-28T22:00:00Z",
+     100.0
     ]
    ],
    "station": "Muonio",
-   "r_index": 18,
-   "sun_elev": -19.5
+   "r_index": 133,
+   "sun_elev": -23.8
   },
   {
    "name": "Saariselkä",
-   "verdict": "Unlikely",
-   "score": 0,
-   "reason": "8% cloud, Ivalo activity low (R=21)",
+   "verdict": "Good",
+   "score": 54,
+   "reason": "8% cloud, Ivalo activity medium (R=175)",
    "cloud_next6h": [
     [
      "2026-10-28T17:00:00Z",
@@ -104,8 +104,8 @@
     ]
    ],
    "station": "Ivalo",
-   "r_index": 21,
-   "sun_elev": -20.3
+   "r_index": 175,
+   "sun_elev": -24.4
   }
  ]
 }
