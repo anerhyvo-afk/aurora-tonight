@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-02T08:01+00:00",
- "kp_forecast_max_next9h": 3.0,
+ "updated": "2026-11-02T09:10+00:00",
+ "kp_forecast_max_next9h": 2.67,
  "towns": [
   {
    "name": "Rovaniemi",
    "verdict": "Unlikely",
    "score": 0,
-   "reason": "too bright, 100% cloud, Ranua activity low (R=54)",
+   "reason": "too bright, 100% cloud, Ranua activity low (R=26)",
    "cloud_next6h": [
+    [
+     "2026-11-02T07:00:00Z",
+     100.0
+    ],
+    [
+     "2026-11-02T08:00:00Z",
+     100.0
+    ],
     [
      "2026-11-02T09:00:00Z",
      100.0
@@ -23,60 +31,52 @@
     [
      "2026-11-02T12:00:00Z",
      100.0
-    ],
-    [
-     "2026-11-02T13:00:00Z",
-     100.0
-    ],
-    [
-     "2026-11-02T14:00:00Z",
-     100.0
     ]
    ],
    "station": "Ranua",
-   "r_index": 54,
-   "sun_elev": 5.8
+   "r_index": 26,
+   "sun_elev": 8.2
   },
   {
    "name": "Levi",
    "verdict": "Unlikely",
    "score": 0,
-   "reason": "too bright, 0% cloud, Muonio activity low (R=72)",
+   "reason": "too bright, 2% cloud, Muonio activity low (R=43)",
    "cloud_next6h": [
     [
-     "2026-11-02T09:00:00Z",
-     0.0
-    ],
-    [
      "2026-11-02T10:00:00Z",
-     1.5
+     2.3
     ],
     [
      "2026-11-02T11:00:00Z",
-     44.8
+     0.1
     ],
     [
      "2026-11-02T12:00:00Z",
-     52.2
+     14.3
     ],
     [
      "2026-11-02T13:00:00Z",
-     99.8
+     97.7
     ],
     [
      "2026-11-02T14:00:00Z",
-     100.0
+     99.7
+    ],
+    [
+     "2026-11-02T15:00:00Z",
+     29.3
     ]
    ],
    "station": "Muonio",
-   "r_index": 72,
-   "sun_elev": 4.5
+   "r_index": 43,
+   "sun_elev": 6.8
   },
   {
    "name": "Saariselkä",
    "verdict": "Unlikely",
    "score": 0,
-   "reason": "too bright, 0% cloud, Ivalo activity medium (R=78)",
+   "reason": "too bright, 0% cloud, Ivalo activity low (R=47)",
    "cloud_next6h": [
     [
      "2026-11-02T09:00:00Z",
@@ -104,8 +104,8 @@
     ]
    ],
    "station": "Ivalo",
-   "r_index": 78,
-   "sun_elev": 4.4
+   "r_index": 47,
+   "sun_elev": 6.4
   }
  ]
 }
