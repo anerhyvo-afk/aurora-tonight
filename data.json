@@ -1,20 +1,16 @@
 {
- "updated": "2026-11-08T05:16+00:00",
- "kp_forecast_max_next9h": 5.0,
+ "updated": "2026-11-08T06:12+00:00",
+ "kp_forecast_max_next9h": 4.0,
  "towns": [
   {
    "name": "Rovaniemi",
    "verdict": "Unlikely",
    "score": 0,
-   "reason": "99% cloud, Ranua activity medium (R=139)",
+   "reason": "too bright, 77% cloud, Ranua activity medium (R=130)",
    "cloud_next6h": [
     [
-     "2026-11-08T06:00:00Z",
-     99.0
-    ],
-    [
      "2026-11-08T07:00:00Z",
-     99.8
+     77.5
     ],
     [
      "2026-11-08T08:00:00Z",
@@ -26,27 +22,27 @@
     ],
     [
      "2026-11-08T10:00:00Z",
-     100.0
+     98.9
     ],
     [
      "2026-11-08T11:00:00Z",
-     96.1
+     90.3
+    ],
+    [
+     "2026-11-08T12:00:00Z",
+     92.8
     ]
    ],
    "station": "Ranua",
-   "r_index": 139,
-   "sun_elev": -7.9
+   "r_index": 130,
+   "sun_elev": -3.1
   },
   {
    "name": "Levi",
    "verdict": "Unlikely",
    "score": 0,
-   "reason": "100% cloud, Muonio activity high (R=318)",
+   "reason": "too bright, 100% cloud, Muonio activity high (R=311)",
    "cloud_next6h": [
-    [
-     "2026-11-08T06:00:00Z",
-     100.0
-    ],
     [
      "2026-11-08T07:00:00Z",
      100.0
@@ -57,38 +53,38 @@
     ],
     [
      "2026-11-08T09:00:00Z",
-     94.9
+     99.9
     ],
     [
      "2026-11-08T10:00:00Z",
-     82.2
+     86.9
     ],
     [
      "2026-11-08T11:00:00Z",
-     99.7
+     97.4
+    ],
+    [
+     "2026-11-08T12:00:00Z",
+     97.3
     ]
    ],
    "station": "Muonio",
-   "r_index": 318,
-   "sun_elev": -8.7
+   "r_index": 311,
+   "sun_elev": -4.1
   },
   {
    "name": "Saariselkä",
    "verdict": "Unlikely",
-   "score": 6,
-   "reason": "88% cloud, Ivalo activity high (R=351)",
+   "score": 0,
+   "reason": "too bright, 99% cloud, Ivalo activity high (R=340)",
    "cloud_next6h": [
     [
-     "2026-11-08T06:00:00Z",
-     88.2
-    ],
-    [
      "2026-11-08T07:00:00Z",
-     97.8
+     99.7
     ],
     [
      "2026-11-08T08:00:00Z",
-     99.9
+     100.0
     ],
     [
      "2026-11-08T09:00:00Z",
@@ -101,11 +97,15 @@
     [
      "2026-11-08T11:00:00Z",
      100.0
+    ],
+    [
+     "2026-11-08T12:00:00Z",
+     100.0
     ]
    ],
    "station": "Ivalo",
-   "r_index": 351,
-   "sun_elev": -8.1
+   "r_index": 340,
+   "sun_elev": -3.7
   }
  ]
 }
