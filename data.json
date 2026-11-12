@@ -1,17 +1,13 @@
 {
- "updated": "2026-11-12T21:59+00:00",
+ "updated": "2026-11-12T22:43+00:00",
  "kp_forecast_max_next9h": 1.67,
  "towns": [
   {
    "name": "Rovaniemi",
    "verdict": "Unlikely",
    "score": 0,
-   "reason": "100% cloud, Ranua activity medium (R=180)",
+   "reason": "100% cloud, Ranua activity low (R=24)",
    "cloud_next6h": [
-    [
-     "2026-11-12T22:00:00Z",
-     100.0
-    ],
     [
      "2026-11-12T23:00:00Z",
      100.0
@@ -31,22 +27,22 @@
     [
      "2026-11-13T03:00:00Z",
      100.0
+    ],
+    [
+     "2026-11-13T04:00:00Z",
+     100.0
     ]
    ],
    "station": "Ranua",
-   "r_index": 180,
-   "sun_elev": -41.4
+   "r_index": 24,
+   "sun_elev": -40.9
   },
   {
    "name": "Levi",
    "verdict": "Unlikely",
    "score": 0,
-   "reason": "100% cloud, Muonio activity high (R=404)",
+   "reason": "100% cloud, Muonio activity low (R=60)",
    "cloud_next6h": [
-    [
-     "2026-11-12T22:00:00Z",
-     100.0
-    ],
     [
      "2026-11-12T23:00:00Z",
      100.0
@@ -66,22 +62,22 @@
     [
      "2026-11-13T03:00:00Z",
      88.9
+    ],
+    [
+     "2026-11-13T04:00:00Z",
+     84.5
     ]
    ],
    "station": "Muonio",
-   "r_index": 404,
-   "sun_elev": -40.1
+   "r_index": 60,
+   "sun_elev": -39.7
   },
   {
    "name": "Saariselkä",
    "verdict": "Unlikely",
    "score": 0,
-   "reason": "100% cloud, Ivalo activity high (R=488)",
+   "reason": "100% cloud, Ivalo activity low (R=71)",
    "cloud_next6h": [
-    [
-     "2026-11-12T22:00:00Z",
-     100.0
-    ],
     [
      "2026-11-12T23:00:00Z",
      100.0
@@ -101,11 +97,15 @@
     [
      "2026-11-13T03:00:00Z",
      100.0
+    ],
+    [
+     "2026-11-13T04:00:00Z",
+     100.0
     ]
    ],
    "station": "Ivalo",
-   "r_index": 488,
-   "sun_elev": -39.5
+   "r_index": 71,
+   "sun_elev": -38.9
   }
  ]
 }
